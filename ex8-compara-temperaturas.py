@@ -1,4 +1,4 @@
-file_path = 'C:\\Users\\fmta2\\Desktop\\code\\python\\cap17\\ex8\\temperaturas.txt'
+file_path = 'temperaturas.txt'
 with open(file_path, 'r') as file:
     matrix_data = file.readlines()
 matrix = [line.split() for line in matrix_data]
